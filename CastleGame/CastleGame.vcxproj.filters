@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DirectXGame">
+      <UniqueIdentifier>{e1386915-3107-4061-a8b3-4e7ad88ae1b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DirectXGame">
+      <UniqueIdentifier>{283ad142-5452-4f94-9860-89db19d5822d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects">
+      <UniqueIdentifier>{86e08b47-d83d-4942-afcd-955f5b119a84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects">
+      <UniqueIdentifier>{2bdada51-da8e-40b8-9ae6-e2adee26544e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\DynamicObjects">
+      <UniqueIdentifier>{a16af8ed-77ae-41ce-92cf-670bb76097c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\DynamicObjects">
+      <UniqueIdentifier>{fce3b959-8405-4dd1-a4b7-1cfe8cff4db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Objects\StaticObjects">
+      <UniqueIdentifier>{4945e469-b71e-4eb3-88b8-39946d608983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Objects\StaticObjects">
+      <UniqueIdentifier>{f0b894fa-b09e-4452-a083-9414836b51a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map &amp; Camera">
+      <UniqueIdentifier>{18347838-7b85-4df0-9bf1-2e9e1f07ba20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map &amp; Camera">
+      <UniqueIdentifier>{edaadeb5-14fa-4a28-85c3-df979a815310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Quadtree">
+      <UniqueIdentifier>{b748de24-38da-4557-99b0-450d410ec6bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Quadtree">
+      <UniqueIdentifier>{f1830129-42e2-4469-a7dd-e755815c3c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManagement">
+      <UniqueIdentifier>{dd1b6d01-cb52-4ebe-abf4-409050571ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManagement">
+      <UniqueIdentifier>{1519626f-00d2-4e26-99bd-5dda9e9be185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManagement\WorldManagement">
+      <UniqueIdentifier>{5c932ded-05c7-44fb-bc30-663a3ddb043c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManagement\StateManagement">
+      <UniqueIdentifier>{907c8c23-9f63-4b6e-81a9-85f8690317e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManagement\StateManagement\StateObjects">
+      <UniqueIdentifier>{42652f1d-0bcf-408a-8d64-86a925d6def8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManagement\StateManagement\StateObjects\Menu">
+      <UniqueIdentifier>{1e5119ec-764c-4761-ae53-bcb6dabc428a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManagement\StateManagement\StateObjects\Screen">
+      <UniqueIdentifier>{d26ac5d7-127f-4ca4-9c8b-54a482fa0832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManagement\WorldManagement">
+      <UniqueIdentifier>{31e14cf9-c222-4178-ab96-6e3bace21b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManagement\StateManagement">
+      <UniqueIdentifier>{748b27ce-6cc4-4eb1-a2d0-b423beadaa2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManagement\StateManagement\StateObjects">
+      <UniqueIdentifier>{5ba703b0-352e-4fa7-a7fc-e205ba494fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManagement\StateManagement\StateObjects\Screen">
+      <UniqueIdentifier>{b1e6a291-327e-4310-9d25-6b1c2ee873cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManagement\StateManagement\StateObjects\Menu">
+      <UniqueIdentifier>{b549a2d1-118f-46db-90ac-06bef89a91b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameManagement\StateManagement\States">
+      <UniqueIdentifier>{45da1391-eb62-4396-9a33-fb89e015327a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManagement\StateManagement\States">
+      <UniqueIdentifier>{979df73b-f7fa-458f-8e7c-81787405f628}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LoadGame">
+      <UniqueIdentifier>{d75e2c4d-572f-4c86-8e91-20686f41f337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LoadGame">
+      <UniqueIdentifier>{83319d21-46b3-4027-9866-06c7b18a7acd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectXGame.cpp">
+      <Filter>Source Files\DirectXGame</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\DirectXGame</Filter>
+    </ClCompile>
+    <ClCompile Include="DSutil.cpp">
+      <Filter>Source Files\DirectXGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Brick.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Map &amp; Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Markup.cpp">
+      <Filter>Source Files\Map &amp; Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="OtherObj.cpp">
+      <Filter>Source Files\Objects\StaticObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Map &amp; Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Source Files\Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="QNode.cpp">
+      <Filter>Source Files\Quadtree</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\StateObjects\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="StartMenu.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\StateObjects\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScreen.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\StateObjects\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitScreen.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\StateObjects\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseInfo.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\StateObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfo.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\StateObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Number.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\StateObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\GameManagement\StateManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp">
+      <Filter>Source Files\GameManagement\WorldManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManagement.cpp">
+      <Filter>Source Files\GameManagement\WorldManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManagement.cpp">
+      <Filter>Source Files\GameManagement\WorldManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="StateManagement.cpp">
+      <Filter>Source Files\GameManagement\StateManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseState.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\States</Filter>
+    </ClCompile>
+    <ClCompile Include="BeginState.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\States</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingObject.cpp">
+      <Filter>Source Files\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadGame.cpp">
+      <Filter>Source Files\LoadGame</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Source Files\DirectXGame</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitState.cpp">
+      <Filter>Source Files\GameManagement\StateManagement\States</Filter>
+    </ClCompile>
+    <ClCompile Include="CastlePlayer.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="CastleGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CanhCua.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="NgonDuoc.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="NgonNen.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ThanhTruot.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Boomerang.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BanChong.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BinhVang.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="BossMap1.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Cho.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ConMa.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DauLau.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DauQuai.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DayChuyen.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Doi.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiGa.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ech.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="LinhCanh.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="NguoiEch.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ngoc.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="NuocThanh.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="Ruong.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TraiTimLon.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TraiTimNho.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TuiTienTrang.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="TuiTienXanh.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="VuongMieng.cpp">
+      <Filter>Source Files\Objects\DynamicObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectXGame.h">
+      <Filter>Header Files\DirectXGame</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableGame.h">
+      <Filter>Header Files\DirectXGame</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Header Files\DirectXGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\DirectXGame</Filter>
+    </ClInclude>
+    <ClInclude Include="DSutil.h">
+      <Filter>Header Files\DirectXGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Brick.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Markup.h">
+      <Filter>Header Files\Map &amp; Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files\Map &amp; Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="OtherObj.h">
+      <Filter>Header Files\Objects\StaticObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Map &amp; Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="QNode.h">
+      <Filter>Header Files\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Header Files\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="StaticObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Header Files\GameManagement\StateManagement\StateObjects\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="StartMenu.h">
+      <Filter>Header Files\GameManagement\StateManagement\StateObjects\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitScreen.h">
+      <Filter>Header Files\GameManagement\StateManagement\StateObjects\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScreen.h">
+      <Filter>Header Files\GameManagement\StateManagement\StateObjects\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="SweptAABB.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseInfo.h">
+      <Filter>Header Files\GameManagement\StateManagement\StateObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfo.h">
+      <Filter>Header Files\GameManagement\StateManagement\StateObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Number.h">
+      <Filter>Header Files\GameManagement\StateManagement\StateObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\GameManagement\StateManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="StateManagement.h">
+      <Filter>Header Files\GameManagement\StateManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManagement.h">
+      <Filter>Header Files\GameManagement\WorldManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManagement.h">
+      <Filter>Header Files\GameManagement\WorldManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>Header Files\GameManagement\WorldManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="BeginState.h">
+      <Filter>Header Files\GameManagement\StateManagement\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseState.h">
+      <Filter>Header Files\GameManagement\StateManagement\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\GameManagement\StateManagement\States</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingState.h">
+      <Filter>Header Files\GameManagement\StateManagement\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Build.h">
+      <Filter>Header Files\Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitState.h">
+      <Filter>Header Files\GameManagement\StateManagement\States</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingObject.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadGame.h">
+      <Filter>Header Files\LoadGame</Filter>
+    </ClInclude>
+    <ClInclude Include="CastlePlayer.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="CastleGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CanhCua.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="NgonDuoc.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="NgonNen.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ThanhTruot.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Boomerang.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BanChong.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BinhVang.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="BossMap1.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ConMa.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Cho.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DauLau.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DauQuai.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DayChuyen.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Doi.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiGa.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ech.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="LinhCanh.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="NuocThanh.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ruong.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TraiTimLon.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TraiTimNho.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TuiTienTrang.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="TuiTienXanh.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="VuongMieng.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="Ngoc.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="NguoiEch.h">
+      <Filter>Header Files\Objects\DynamicObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="map.xml">
+      <Filter>Header Files\Map &amp; Camera</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

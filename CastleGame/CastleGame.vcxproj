@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9E31D563-A06C-4338-AD0C-832B2CB5988A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CastleGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(DXSDK_DIR)\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;MARKUP_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dinput8.lib;dxguid.lib;dsound.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BanChong.cpp" />
+    <ClCompile Include="BaseInfo.cpp" />
+    <ClCompile Include="BaseObject.cpp" />
+    <ClCompile Include="BeginState.cpp" />
+    <ClCompile Include="BinhVang.cpp" />
+    <ClCompile Include="Boomerang.cpp" />
+    <ClCompile Include="BossMap1.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CanhCua.cpp" />
+    <ClCompile Include="Cho.cpp" />
+    <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="ConMa.cpp" />
+    <ClCompile Include="DauLau.cpp" />
+    <ClCompile Include="DauQuai.cpp" />
+    <ClCompile Include="DayChuyen.cpp" />
+    <ClCompile Include="DirectXGame.cpp" />
+    <ClCompile Include="Doi.cpp" />
+    <ClCompile Include="DSutil.cpp" />
+    <ClCompile Include="DuiGa.cpp" />
+    <ClCompile Include="DynamicObject.cpp" />
+    <ClCompile Include="Ech.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="GameInfo.cpp" />
+    <ClCompile Include="GameOverScreen.cpp" />
+    <ClCompile Include="LinhCanh.cpp" />
+    <ClCompile Include="LivingObject.cpp" />
+    <ClCompile Include="LoadGame.cpp" />
+    <ClCompile Include="Ngoc.cpp" />
+    <ClCompile Include="NgonDuoc.cpp" />
+    <ClCompile Include="NgonNen.cpp" />
+    <ClCompile Include="NguoiEch.cpp" />
+    <ClCompile Include="NuocThanh.cpp" />
+    <ClCompile Include="PauseState.cpp" />
+    <ClCompile Include="Ruong.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="GameTime.cpp" />
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="CastleGame.cpp" />
+    <ClCompile Include="CastlePlayer.cpp" />
+    <ClCompile Include="Markup.cpp" />
+    <ClCompile Include="Number.cpp" />
+    <ClCompile Include="OtherObj.cpp" />
+    <ClCompile Include="PauseMenu.cpp" />
+    <ClCompile Include="PlayState.cpp" />
+    <ClCompile Include="QNode.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="TextureManagement.cpp" />
+    <ClCompile Include="StartMenu.cpp" />
+    <ClCompile Include="StateManagement.cpp" />
+    <ClCompile Include="StaticObject.cpp" />
+    <ClCompile Include="ThanhTruot.cpp" />
+    <ClCompile Include="TraiTimLon.cpp" />
+    <ClCompile Include="TraiTimNho.cpp" />
+    <ClCompile Include="TuiTienTrang.cpp" />
+    <ClCompile Include="TuiTienXanh.cpp" />
+    <ClCompile Include="VuongMieng.cpp" />
+    <ClCompile Include="WaitScreen.cpp" />
+    <ClCompile Include="WaitState.cpp" />
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="WorldManagement.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BanChong.h" />
+    <ClInclude Include="BaseInfo.h" />
+    <ClInclude Include="BaseObject.h" />
+    <ClInclude Include="BeginState.h" />
+    <ClInclude Include="BinhVang.h" />
+    <ClInclude Include="Boomerang.h" />
+    <ClInclude Include="BossMap1.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="Build.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CanhCua.h" />
+    <ClInclude Include="Cho.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="ConMa.h" />
+    <ClInclude Include="DauLau.h" />
+    <ClInclude Include="DauQuai.h" />
+    <ClInclude Include="DayChuyen.h" />
+    <ClInclude Include="DirectXGame.h" />
+    <ClInclude Include="Doi.h" />
+    <ClInclude Include="DSutil.h" />
+    <ClInclude Include="DuiGa.h" />
+    <ClInclude Include="DynamicObject.h" />
+    <ClInclude Include="Ech.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Factory.h" />
+    <ClInclude Include="GameInfo.h" />
+    <ClInclude Include="GameOverScreen.h" />
+    <ClInclude Include="LinhCanh.h" />
+    <ClInclude Include="LivingObject.h" />
+    <ClInclude Include="LoadGame.h" />
+    <ClInclude Include="Ngoc.h" />
+    <ClInclude Include="NgonDuoc.h" />
+    <ClInclude Include="NgonNen.h" />
+    <ClInclude Include="NguoiEch.h" />
+    <ClInclude Include="NuocThanh.h" />
+    <ClInclude Include="PauseState.h" />
+    <ClInclude Include="Ruong.h" />
+    <ClInclude Include="SettingState.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="GameTime.h" />
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="CastleGame.h" />
+    <ClInclude Include="CastlePlayer.h" />
+    <ClInclude Include="Markup.h" />
+    <ClInclude Include="Number.h" />
+    <ClInclude Include="OtherObj.h" />
+    <ClInclude Include="PauseMenu.h" />
+    <ClInclude Include="PlayState.h" />
+    <ClInclude Include="QNode.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="TextureManagement.h" />
+    <ClInclude Include="StartMenu.h" />
+    <ClInclude Include="StateManagement.h" />
+    <ClInclude Include="StaticObject.h" />
+    <ClInclude Include="SweptAABB.h" />
+    <ClInclude Include="ThanhTruot.h" />
+    <ClInclude Include="TraiTimLon.h" />
+    <ClInclude Include="TraiTimNho.h" />
+    <ClInclude Include="TuiTienTrang.h" />
+    <ClInclude Include="TuiTienXanh.h" />
+    <ClInclude Include="VariableGame.h" />
+    <ClInclude Include="VuongMieng.h" />
+    <ClInclude Include="WaitScreen.h" />
+    <ClInclude Include="WaitState.h" />
+    <ClInclude Include="WorldManagement.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="map.xml">
+      <SubType>Designer</SubType>
+    </Xml>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

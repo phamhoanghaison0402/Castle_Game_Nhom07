@@ -1,0 +1,145 @@
+﻿Build started 14/11/2016 1:07:39 PM.
+     1>Project "C:\Users\Admin\Desktop\CastleGame 13-11-2016\CastleGame\CastleGame.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D MARKUP_STL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt BeginState.cpp CastleGame.cpp GameWorld.cpp LoadGame.cpp PauseState.cpp PlayState.cpp WaitState.cpp WinMain.cpp WorldManagement.cpp
+         BeginState.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+         Generating Code...
+         Compiling...
+         WorldManagement.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+         WinMain.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+         WaitState.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+         PlayState.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+         PauseState.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+         LoadGame.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(19): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(20): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(21): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(26): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(98): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(107): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(111): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(118): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(146): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(147): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(148): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(149): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(150): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(152): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(153): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(154): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(155): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\loadgame.cpp(164): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+         GameWorld.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\gameworld.cpp(458): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\gameworld.cpp(312): warning C4101: 'w' : unreferenced local variable
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\gameworld.cpp(369): warning C4101: 'dir' : unreferenced local variable
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\gameworld.cpp(527): warning C4244: 'initializing' : conversion from 'FLOAT' to 'int', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\gameworld.cpp(535): warning C4244: '=' : conversion from 'FLOAT' to 'int', possible loss of data
+         CastleGame.cpp
+         c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\baseobject.h(35): warning C4244: 'argument' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(156): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\admin\desktop\castlegame 13-11-2016\castlegame\build.h(372): warning C4101: 'bo' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\Desktop\CastleGame 13-11-2016\Debug\CastleGame.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib dinput8.lib dxguid.lib dsound.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\Desktop\CastleGame 13-11-2016\Debug\CastleGame.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\Desktop\CastleGame 13-11-2016\Debug\CastleGame.lib" /MACHINE:X86 Debug\BanChong.obj
+         Debug\BaseInfo.obj
+         Debug\BaseObject.obj
+         Debug\BeginState.obj
+         Debug\BinhVang.obj
+         Debug\Boomerang.obj
+         Debug\BossMap1.obj
+         Debug\Brick.obj
+         Debug\Camera.obj
+         Debug\CanhCua.obj
+         Debug\Cho.obj
+         Debug\Collision.obj
+         Debug\ConMa.obj
+         Debug\DauLau.obj
+         Debug\DauQuai.obj
+         Debug\DayChuyen.obj
+         Debug\DirectXGame.obj
+         Debug\Doi.obj
+         Debug\DSutil.obj
+         Debug\DuiGa.obj
+         Debug\DynamicObject.obj
+         Debug\Ech.obj
+         Debug\Enemy.obj
+         Debug\GameInfo.obj
+         Debug\GameOverScreen.obj
+         Debug\LinhCanh.obj
+         Debug\LivingObject.obj
+         Debug\LoadGame.obj
+         Debug\Ngoc.obj
+         Debug\NgonDuoc.obj
+         Debug\NgonNen.obj
+         Debug\NguoiEch.obj
+         Debug\NuocThanh.obj
+         Debug\PauseState.obj
+         Debug\Ruong.obj
+         Debug\State.obj
+         Debug\GameTime.obj
+         Debug\GameWorld.obj
+         Debug\Logger.obj
+         Debug\Map.obj
+         Debug\CastleGame.obj
+         Debug\CastlePlayer.obj
+         Debug\Markup.obj
+         Debug\Number.obj
+         Debug\OtherObj.obj
+         Debug\PauseMenu.obj
+         Debug\PlayState.obj
+         Debug\QNode.obj
+         Debug\QuadTree.obj
+         Debug\TextureManagement.obj
+         Debug\StartMenu.obj
+         Debug\StateManagement.obj
+         Debug\StaticObject.obj
+         Debug\ThanhTruot.obj
+         Debug\TraiTimLon.obj
+         Debug\TraiTimNho.obj
+         Debug\TuiTienTrang.obj
+         Debug\TuiTienXanh.obj
+         Debug\VuongMieng.obj
+         Debug\WaitScreen.obj
+         Debug\WaitState.obj
+         Debug\WinMain.obj
+         Debug\WorldManagement.obj
+         CastleGame.vcxproj -> C:\Users\Admin\Desktop\CastleGame 13-11-2016\Debug\CastleGame.exe
+     1>Done Building Project "C:\Users\Admin\Desktop\CastleGame 13-11-2016\CastleGame\CastleGame.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.26
